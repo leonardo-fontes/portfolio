@@ -1,7 +1,7 @@
-function Container({ children, classname }) {
+function Container({ children, classname, size }) {
   return (
     <container
-      className={`flex w-full bg-[#6a6f86] z-0 min-h-[90vh] relative ${classname}`}
+      className={`flex w-full  z-0 ${size} relative ${classname}`}
     >
       {children}
     </container>

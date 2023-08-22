@@ -17,7 +17,7 @@ function Home() {
           A Frontend focused Web Developer building the Frontend of Websites and
           Web Applications that leads to the success of the overall product
         </p>
-        <Button text={"PROJETOS"} size={"w-64"} />
+        <Button text={"PROJETOS"} classname={"w-64 p-4 bg-[#2a3044]"}  />
       </div>
       <div className="flex bg-white absolute top-[18rem] left-0">
         <Media

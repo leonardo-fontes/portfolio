@@ -30,7 +30,7 @@ function About() {
               learn and grow. If you have a good opportunity that matches my
               skills and experience then don't hesitate to contact me.
             </p>
-            <Button text="CONTATO" size={"w-44"} />
+            <Button text="CONTATO" classname={"w-48 p-4 bg-[#2a3044]"} />
           </div>
           <div className="flex flex-col gap-10 w-1/2">
             <h4 className="font-bold text-3xl">Minhas Habilidades</h4>
