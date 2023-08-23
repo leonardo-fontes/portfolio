@@ -1,6 +1,19 @@
 import Button from "../layout/Button";
 import Tag from "../layout/Tag";
 function About() {
+  const tags = [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT",
+    "TYPESCRIPT",
+    "REACT.JS",
+    "TAILWINDCSS",
+    "GIT",
+    "GITHUB",
+    "RESPONSIVE DESIGN",
+    "SEO",
+    ".NET",
+  ];
   return (
     <>
       <div className="flex flex-col container mx-auto my-32 text-white">
@@ -35,17 +48,9 @@ function About() {
           <div className="flex flex-col gap-10 w-1/2">
             <h4 className="font-bold text-3xl">Minhas Habilidades</h4>
             <div className="flex gap-4 flex-wrap w-10/12">
-              <Tag text={"HTML"} />
-              <Tag text={"CSS"} />
-              <Tag text={"JAVASCRIPT"} />
-              <Tag text={"TYPESCRIPT"} />
-              <Tag text={"REACT.JS"} />
-              <Tag text={"TAILWINDCSS"} />
-              <Tag text={"GIT"} />
-              <Tag text={"GITHUB"} />
-              <Tag text={"RESPONSIVE DESIGN"} />
-              <Tag text={"SEO"} />
-              <Tag text={".NET"} />
+              {tags.map((tag) => (
+                <Tag text={tag} />
+              ))}
             </div>
           </div>
         </div>

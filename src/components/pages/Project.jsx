@@ -30,9 +30,9 @@ function Project({ title, description, projectDescription, tags }) {
 
               <h3 className="font-semibold text-3xl mt-6">Tool used</h3>
               <div className="flex flex-wrap gap-4">
-                {tags.forEach((tag) => {
+                {tags.map((tag) => (
                   <Tag text={tag} />
-                })}
+                ))}
               </div>
 
               <h3 className="font-semibold text-3xl mt-6">See Live</h3>
