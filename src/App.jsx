@@ -1,50 +1,47 @@
-import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Container from "./components/layout/Container";
 import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Projects from "./components/pages/Projects";
-import Contact from "./components/pages/Contact";
+import About from "./components/Partials/About";
+import Projects from "./components/Partials/Projects";
+import Contact from "./components/Partials/Contact";
 import Project from "./components/pages/Project";
+
+const projetos = [
+  {
+    title: "CROWN TEMPLATE",
+    description:
+      "This page contains the case study of Crown Website Template which includes the Project Overview, Tools Used and Live Links to the official product.",
+    projectDescription:
+      "Crown is a web template that I created targeting the restaurant and food industry for people to use for their own restaurant business and build trust and engagement with their customers by providing them with a better User Interface on the Web.By taking User Interface ideas by visiting different types of websites of the same industry and even visited platforms like dribble to get inspiration for building a good User Interface that will bring great results. Feel free to check out the Project by visiting the Live Link.",
+    tags: ["HTML", "CSS", "JAVASCRIPT", "TAILWIND"],
+    id: 1,
+  },
+];
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
-      {/* <Container children={<Home />} size={"min-h-[90vh]"} classname={"bg-[#6a6f86]"} />
-      <Container children={<About />} size={"min-h-[90vh]"} classname={"bg-[#4a5065]"} />
-      <Container children={<Projects />} size={"min-h-[90vh]"} classname={"bg-[#6a6f86]"} />
-      <Container children={<Contact />}  size={"min-h-[90vh]"} classname={"bg-[#4a5065]"} /> */}
-      <Container
-        children={
-          <Project
-            title="DOPEFOLIO"
-            description="This page contains the case study of Dopefolio Open-Source Project
-            which includes the Project Overview, Tools Used and Live Links to
-            the official product."
-            projectDescription="Dopefolio is an Open-Source project which is a simple and clean multi-page
-            portfolio website template for developers. I created this project for
-            developers to quickly build a good-looking and fast-performing multi-page
-            portfolio without having to code their portfolio from scratch. Since the
-            launch of this project, It has received more than 2k stars on Github and
-            it has also got featured on hundreds of sites and CSS-tricks.com has also
-            featured this template as the hottest frontend tool of 2021 in one of
-            their articles which you can find here Dopefolio is now being used by
-            thousands of developers globally and it has helped many people in landing
-            jobs & opportunities which makes me happy that my creation is helping
-            other people in building their careers. It has many other features like
-            Dopefolio's repo contains a playground link which people can use to test
-            the template with different theme colours to find their own preferred
-            primary colour for the template."
-            tags={["HTML", "CSS", "JAVASCRIPT", "BOMDIA"]}
-          />
-        }
-        classname={"bg-[#4a5065]"}
-      />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route
+          path="/project"
+          element={
+            <Project
+              title={projetos[0].title}
+              description={projetos[0].description}
+              projectDescription={projetos[0].projectDescription}
+              tags={projetos[0].tags}
+            />
+          }
+        />
+      </Routes>
+
       <Footer />
-    </>
+    </Router>
   );
 }
 

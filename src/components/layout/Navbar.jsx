@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <>
       {/* deixar barra fixa */}
-      <navbar className="flex w-full justify-between px-16 items-center text-[white] py-8 bg-[#2a3044] ">
+      <div className="flex w-full justify-between px-16 items-center text-[white] py-8 bg-[#2a3044] ">
         <div className="flex gap-4">
           <img src="vite.svg" alt="" />
           <h3 className="font-bold text-[1.115rem]">LEONARDO FONTES</h3>
@@ -10,20 +12,20 @@ function Navbar() {
         <div className="flex ">
           <ul className="flex gap-12 font-bold text-base">
             <li>
-              <a href="#contact">HOME</a>
+              <Link to="/">HOME</Link>
             </li>
             <li>
-              <a href="#contact">SOBRE MIM</a>
+              <Link to="/#about">SOBRE MIM</Link>
             </li>
             <li>
-              <a href="#contact">PROJETOS</a>
+              <Link to="#projects">PROJETOS</Link>
             </li>
             <li>
-              <a href="#contact">CONTATO</a>
+              <Link to="#contact">CONTATO</Link>
             </li>
           </ul>
         </div>
-      </navbar>
+      </div>
     </>
   );
 }
