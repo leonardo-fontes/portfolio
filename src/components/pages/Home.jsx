@@ -30,7 +30,7 @@ function Home() {
             desenvolvimento.
           </p>
           <Link smooth={true} duration={1300} to="projects">
-            <Button text={"PROJETOS"} classname={"w-64 p-4 bg-[#3592e2] "} />
+            <Button text={"PROJETOS"} classname={"w-64 p-4 text-white bg-[#3592e2] "} />
           </Link>
         </div>
         <div className="md:flex hidden bg-[#e5ebf1] absolute top-[18rem] left-0">

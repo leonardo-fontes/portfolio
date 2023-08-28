@@ -18,11 +18,7 @@ function Media({ classNameUl, size, classNameLi }) {
           <FaGithub size={size} />
         </Link>
       </li>
-      <li className={classNameLi}>
-        <Link target="blank" to="https://www.instagram.com/leohonda013/">
-          <AiFillInstagram size={size} />
-        </Link>
-      </li>
+     
       <li className={classNameLi}>
         <Link to="mailto:leofonttes@gmail.com">
           <BiLogoGmail size={size} />

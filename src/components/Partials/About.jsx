@@ -57,7 +57,7 @@ function About() {
               <br />
             </p>
             <Link id="projects" smooth={true} duration={1300} to="contact">
-              <Button  text="CONTATO" classname={"w-48 p-4 bg-[#3592e2]"} />
+              <Button  text="CONTATO" classname={"w-48 p-4 text-white bg-[#3592e2]"} />
             </Link>
           </div>
           <div className="flex flex-col gap-10 lg:w-1/2">
