@@ -38,7 +38,7 @@ function Home() {
             size={30}
             classNameUl={"flex flex-col gap-3 w-16 items-center py-2 "}
             classNameLi={
-              "p-3 hover:bg-[#3592e2] rounded-md transition duration-300"
+              "p-3 hover:bg-[#3592e2] hover:text-white rounded-md transition duration-300"
             }
           />
         </div>
