@@ -1,7 +1,7 @@
 import Media from "./Media";
 function Footer() {
   return (
-    <footer className="text-black bg-[#3592e2] ">
+    <footer className="text-white bg-[#222] ">
       <div className="mx-auto container flex md:flex-row flex-col justify-between  border-b-[1px] border-solid border-[#386895]">
         <div className="flex flex-col md:gap-4 gap-20 py-12 justify-between md:items-start items-center ">
           <h3 className="font-bold text-2xl">LEONARDO FONTES</h3>
