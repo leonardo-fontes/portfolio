@@ -20,7 +20,7 @@ function Projects() {
             description={`O "Costs" é um aplicativo de gerenciamento de custos projetado para facilitar o acompanhamento das despesas em diversos projetos. Desenvolvido com tecnologias modernas como React, JavaScript e Tailwind CSS, o CostTrack oferece uma abordagem simplificada para gerenciar suas finanças pessoais.
               Com o Costs, você pode criar, editar e excluir projetos, cada um representando uma área específica de despesas.`}
               image={"/costs.png"}
-              link="https://portfolio-nine-weld-16.vercel.app/project/1"
+              link="https://portfolio-nine-weld-16.vercel.app/1"
           />
           <ProjectCard
             title={"Notes"}
@@ -28,7 +28,7 @@ function Projects() {
               `O projeto "Notes" é um aplicativo de bloco de notas desenvolvido com foco na simplicidade e segurança das anotações pessoais. Ele foi construído usando tecnologias modernas como React, TypeScript e Tailwind CSS.`
             }
             image={"/notes.png"}
-            link="https://portfolio-nine-weld-16.vercel.app/project/2"
+            link="https://portfolio-nine-weld-16.vercel.app/2"
           />
         </div>
       </div>
