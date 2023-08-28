@@ -18,22 +18,22 @@ function Project({
     <>
       <Navbar />
       <WhatsMe/>
-      <Container classname={`bg-[#8c8c8c] min-h-[90vh]`}>
+      <Container classname={`bg-[#e5ebf1] min-h-[90vh]`}>
         <div className="flex flex-col w-full">
-          <Container classname={"bg-[#696969]"} size={"min-h-[70vh]"}>
-            <div className="flex flex-col justify-center items-center text-center mx-auto container text-white gap-12">
+          <Container classname={"bg-[#ffffff]"} size={"min-h-[70vh]"}>
+            <div className="flex flex-col justify-center items-center text-center mx-auto container text-black gap-12">
               <h1 className="text-5xl font-bold tracking-widest">{title}</h1>
               <p className="text-2xl w-3/5">{description}</p>
               <Link target="_blank" to={link}>
                 <Button
                   text={"VER PROJETO NO GITHUB"}
-                  classname={"w-80 p-5 bg-[#232323]"}
+                  classname={"w-80 p-5 bg-[#3592e2]"}
                 />
               </Link>
             </div>
           </Container>
           <Container classname={"min-h-[70vh]"}>
-            <div className="flex flex-col mx-auto container items-center justify-center my-20 text-white ">
+            <div className="flex flex-col mx-auto container items-center justify-center my-20 text-black ">
               <img
                 className="mb-8 shadow-2xl rounded-3xl object-contain w-[90vw] md:w-[40vw]"
                 src={`/${image}`}
@@ -62,7 +62,7 @@ function Project({
                 <div className="flex gap-6">
                   <Link target="_blank" to={link}>
                     <Button
-                      classname={"md:w-64 w-48 p-3 relative bg-[#232323]"}
+                      classname={"md:w-64 w-48 p-3 relative bg-[#3592e2]"}
                       text={`GITHUB`}
                     />
                   </Link>
@@ -70,7 +70,7 @@ function Project({
                   <Link to="/">
                     <Button
                       classname={
-                        "md:w-48 w-32 p-3 text-[#232323] border-solid border-2 border-[#232323]"
+                        "md:w-48 w-32 p-3 text-[#3592e2] border-solid border-2 border-[#3592e2]"
                       }
                       text={"VOLTAR"}
                     />

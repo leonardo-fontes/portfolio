@@ -14,7 +14,7 @@ function ProjectCard({ title, description, image, link }) {
           <h4 className="font-bold text-2xl">{title}</h4>
           <p className="md:w-3/4 w-4/5 ">{description}</p>
           <a target="_blank" href={link}>
-            <Button text={"VER PROJETO"} classname={"w-48 p-3 bg-[#232323]"} />
+            <Button text={"VER PROJETO"} classname={"w-48 p-3 bg-[#388ad6]"} />
           </a>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import Media from "./Media";
 function Footer() {
   return (
-    <footer className="text-white bg-[#232323] ">
-      <div className="mx-auto container flex md:flex-row flex-col justify-between  border-b-[1px] border-solid border-[#7a7a7a]">
+    <footer className="text-black bg-[#3592e2] ">
+      <div className="mx-auto container flex md:flex-row flex-col justify-between  border-b-[1px] border-solid border-[#386895]">
         <div className="flex flex-col md:gap-4 gap-20 py-12 justify-between md:items-start items-center ">
           <h3 className="font-bold text-2xl">LEONARDO FONTES</h3>
           <p className="md:w-1/2 w-10/12 md:text-start text-center">

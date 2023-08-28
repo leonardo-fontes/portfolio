@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <>
       <div
-        className={`flex w-full fixed top-0 z-10 md:justify-between justify-center px-4 lg:px-16 items-center shadow-xl text-[white] py-6 bg-[#8c8c8c]`}
+        className={`flex w-full fixed top-0 z-10 md:justify-between justify-center px-4 lg:px-16 items-center shadow-xl text-[black] py-6 bg-[#e5ebf1]`}
       >
         <Link reloadDocument to="/">
           <div className={`gap-4 relative items-center flex`}>
@@ -19,7 +19,7 @@ function Navbar() {
               src="/linkedin.jpg"
               alt=""
             />
-            <h3 className="font-bold lg:text-[1.115rem] hover:text-[#232323] duration-300 ease-out">
+            <h3 className="font-bold lg:text-[1.115rem] hover:text-[#3592e2] duration-300 ease-out">
               LEONARDO FONTES
             </h3>
           </div>
@@ -27,22 +27,22 @@ function Navbar() {
         <div className={`md:flex hidden`}>
           {currentPath === "/" ? (
             <ul className="flex gap-12 font-bold text-base">
-              <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+              <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                 <Link reloadDocument to="/">
                   HOME
                 </Link>
               </li>
-              <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+              <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                 <Ancora smooth={true} duration={1300} to="about">
                   SOBRE MIM
                 </Ancora>
               </li>
-              <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+              <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                 <Ancora smooth={true} duration={1300} to="projects">
                   PROJETOS
                 </Ancora>
               </li>
-              <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+              <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                 <Ancora smooth={true} duration={1300} to="contact">
                   CONTATO
                 </Ancora>
@@ -52,27 +52,27 @@ function Navbar() {
           ) : (
             <ul className="flex gap-12 font-bold text-base">
               <Link to="/">
-                <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+                <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                   HOME
                 </li>
               </Link>
-              <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+              <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                 <Link to="/">
-                  <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+                  <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                     SOBRE MIM
                   </li>
                 </Link>
               </li>
-              <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+              <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                 <Link to="/">
-                  <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+                  <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                     PROJETOS
                   </li>
                 </Link>
               </li>
-              <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+              <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                 <Link to="/">
-                  <li className="hover:text-[#232323] duration-300 ease-out cursor-pointer">
+                  <li className="hover:text-[#3592e2] duration-300 ease-out cursor-pointer">
                     CONTATO
                   </li>
                 </Link>

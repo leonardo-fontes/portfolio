@@ -19,11 +19,11 @@ function About() {
     <>
       <div
         
-        className="flex flex-col container mx-auto my-32 text-white"
+        className="flex flex-col container mx-auto my-32 text-black"
       >
         <header className="flex flex-col justify-center text-center items-center gap-8">
           <h2 className="font-bold text-4xl tracking-widest">SOBRE MIM</h2>
-          <span className="w-10 border-[3px] border-solid rounded-lg border-[#232323]"></span>
+          <span className="w-10 border-[3px] border-solid rounded-lg border-[#3592e2]"></span>
           <p className="text-xl w-3/5">
             Aqui você conhece um pouco mais sobre mim, o que eu faço, e quais
             são minhas maiores habilidades quando se trata de programação.
@@ -57,7 +57,7 @@ function About() {
               <br />
             </p>
             <Link id="projects" smooth={true} duration={1300} to="contact">
-              <Button  text="CONTATO" classname={"w-48 p-4 bg-[#232323]"} />
+              <Button  text="CONTATO" classname={"w-48 p-4 bg-[#3592e2]"} />
             </Link>
           </div>
           <div className="flex flex-col gap-10 lg:w-1/2">

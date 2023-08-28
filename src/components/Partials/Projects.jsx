@@ -5,11 +5,11 @@ function Projects() {
     <>
       <div
         
-        className="flex flex-col container mx-auto my-32 text-white"
+        className="flex flex-col container mx-auto my-32 text-black"
       >
         <header className="flex flex-col justify-center text-center items-center gap-8">
           <h2 className="font-bold text-4xl tracking-widest">PROJETOS</h2>
-          <span className="w-10 border-[3px] border-solid rounded-lg border-[#232323]"></span>
+          <span className="w-10 border-[3px] border-solid rounded-lg border-[#3592e2]"></span>
           <p className="text-xl md:w-3/5 w-4/5">
             Aqui você pode encontrar mais informações sobre meus projetos, como identificar sua funcionalidade e tecnologias utilizadas.
           </p>
