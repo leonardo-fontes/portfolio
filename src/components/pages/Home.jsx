@@ -16,8 +16,8 @@ function Home() {
       <WhatsMe />
       <Container classname={`bg-[#696969] min-h-[90vh]`}>
         <img
-          className="object-contain absolute top-48 right-0 z-[-10] opacity-30 "
-          src="fundo6.png"
+          className="object-contain absolute top-48 right-0 z-[-10] grayscale opacity-10 "
+          src="fundo.png"
           alt=""
         />
 
