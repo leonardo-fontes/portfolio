@@ -38,7 +38,7 @@ function App() {
           <Route
             key={project.id}
             exact
-            path={`/project/${project.id}`}
+            path={`https://portfolio-nine-weld-16.vercel.app/project/${project.id}`}
             element={
               <Project
                 title={project.title}
