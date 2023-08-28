@@ -12,7 +12,7 @@ function ProjectCard({ title, description, image, link }) {
 
         <div className="flex md:gap-10 gap-4 flex-col justify-center lg:items-start items-center">
           <h4 className="font-bold text-2xl">{title}</h4>
-          <p className="md:w-3/4 w-4/5 ">{description}</p>
+          <p className="md:w-3/4 w-4/5 text-lg ">{description}</p>
           <a target="_blank" href={link}>
             <Button text={"VER PROJETO"} classname={"w-48 text-white p-3 bg-[#388ad6]"} />
           </a>
